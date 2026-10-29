@@ -1,0 +1,29 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Notes App yang terintegrasi dengan Dicoding Notes API v2",
+  "scripts": {
+    "start-dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "format": "prettier --write .",
+    "check-format": "prettier --check ."
+  },
+  "keywords": [
+    "notes-app",
+    "webpack",
+    "restful-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "html-webpack-plugin": "^5.6.8",
+    "prettier": "^3.9.10",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.1.0",
+    "webpack-merge": "^6.0.1"
+  }
+}
